@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+}
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #eee;
+}
+body .section {
+    width: 500px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 20px 20px 100px 20px;
+    
+}
+body .input {
+    display: flex;
+}
+body .input div {
+    display: flex;
+    flex-direction: column;
+}
+body .input input {
+    width: 100px;
+    height: 50px;
+    margin-right: 15px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    border: 2px double #5409DA;
+    border-radius: 5px;
+    background-color: #fcfafa;
+}
+body .input div label {
+    font-size: 14px;
+    color: #0000008e;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+body .section .lign {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body .section .lign hr {
+    width: 100%;
+    height: 1px;
+}
+body .section .lign i {
+    font-size: 30px;
+}
+body .section .lign button{
+    border-radius: 50%;
+    padding: 15px;
+    border: none;
+    margin-right: 40px;
+    cursor: pointer;
+    background-color: #5409DA;
+    color: #fff;
+    transition: 0.4s;
+}
+body .section .lign button:hover {
+    background-color: #5609dab4;
+}
+body .section .resultat div {
+    display: flex;
+    align-items: center;
+}
+body .section .resultat p{
+    font-size: 60px;
+}
+body .section .resultat h1 {
+    font-size: 80px;
+    margin-right: 15px;
+    color: #5409DA;
+}
